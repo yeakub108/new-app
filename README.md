@@ -4,3 +4,6 @@ hello
 check
 updated
 testing
+hi
+hello
+new
