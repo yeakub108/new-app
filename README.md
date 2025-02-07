@@ -12,3 +12,4 @@ medium data
 hello color
 updated
 old is gold
+new
