@@ -16,3 +16,4 @@ new
 hello
 datas
 edit
+new data
