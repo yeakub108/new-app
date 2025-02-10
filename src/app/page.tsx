@@ -19,7 +19,7 @@ export default function Home() {
       {Array.from({ length: 10 }, (_, index) => (
         <p key={index}>{userName}</p>
       ))}
-This is my userName koi
+This is my userName
              new data
     </div>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
