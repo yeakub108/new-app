@@ -13,7 +13,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1>User Name:</h1>
+        <h1>User Names:</h1>
            <div>
       {Array.from({ length: 10 }, (_, index) => (
         <p key={index}>{userName}</p>
