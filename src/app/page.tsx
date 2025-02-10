@@ -13,7 +13,7 @@ export default function Home() {
           height={38}
           priority
         />
-hello data
+hello new data
            <div>
       {Array.from({ length: 10 }, (_, index) => (
         <p key={index}>{userName}</p>
