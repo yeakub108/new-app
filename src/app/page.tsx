@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
 
-  const fruitNames 
+  const fruitNames ====
     "Apple",
     "Banana",
     "Cherry",
