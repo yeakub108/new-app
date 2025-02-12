@@ -28,6 +28,7 @@ export default function Home() {
         />
        <div>
       <h1>Fruit Names</h1>
+         fruitNames.map(index)=>[
       <ul>
         {fruitNames.map((fruit, index) => (
           <li key={index}>{fruit}</li>
