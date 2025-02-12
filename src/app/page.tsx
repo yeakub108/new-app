@@ -14,7 +14,6 @@ export default function Home() {
     "Pineapple",
     "Strawberry",
     "Watermelons",
-    "Data"
 
   
   return (
