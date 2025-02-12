@@ -16,7 +16,7 @@ export default function Home() {
     "Data",
     egfdf
     dfgff
-  fhsoae
+  fhsoaes
   add data
     
   return (
