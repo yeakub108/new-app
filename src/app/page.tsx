@@ -2,8 +2,18 @@ import Image from "next/image";
 
 export default function Home() {
 
-const Names =["Apple", "orange", "foots", "Banana"];
-  console.log(Names)
+  const fruitNames = [
+    "Apple",
+    "Banana",
+    "Cherry",
+    "Grape",
+    "Mango",
+    "Orange",
+    "Peach",
+    "Pineapple",
+    "Strawberry",
+    "Watermelons",
+  """]
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
@@ -15,11 +25,14 @@ const Names =["Apple", "orange", "foots", "Banana"];
           height={38}
           priority
         />
-        <h1 className='text-red-500'>User Names:</h1>
-           <div>
-      {Array.from({ length: 10 }, (_, index) => (
-        <p key={index}>{userName}</p>
-      ))}
+       <div>
+      <h1>Fruit Names</h1>
+      <ul>
+        {fruitNames.map((fruit, index) => (
+          <li key={index}>{fruit}</li>
+        ))}
+      </ul>
+    </div>
     </div>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
