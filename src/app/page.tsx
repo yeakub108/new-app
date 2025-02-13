@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
 
 
-  const fruitNames ==[
+  const fruitNames =[
     "Apple",
     "Banana",
     "Cherry",
@@ -27,8 +27,10 @@ export default function Home() {
           priority
         />
        <div>
+         const Name = Yeakub
+         console.log(Name)
       <h1>Fruit Names</h1>
-         fruitNames.map(index)=>[
+
       <ul>
         {fruitNames.map((fruit, index) => (
           <li key={index}>{fruit}</li>
