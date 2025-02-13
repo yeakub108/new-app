@@ -23,11 +23,12 @@ export default function Home() {
           src="/next.svg"
           alt="Next.js logo"
           width={180}
-          height={38}
+          height={38}dd
           priority
         />
        <div>
       <h1>Fruit Names</h1>
+         fruitNames.map(index)=>[
       <ul>
         {fruitNames.map((fruit, index) => (
           <li key={index}>{fruit}</li>
