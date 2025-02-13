@@ -1,7 +1,9 @@
-
+import Image from "next/image";
 
 export default function Home() {
 
+  const names = Yeakub
+  console.log(name)
 
   const fruitNames =[
     "Apple",
