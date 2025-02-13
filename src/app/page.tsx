@@ -27,8 +27,6 @@ export default function Home() {
           priority
         />
        <div>
-         const Name = Yeakub
-         console.log(Name)
       <h1>Fruit Names</h1>
 
       <ul>
