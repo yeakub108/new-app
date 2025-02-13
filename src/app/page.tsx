@@ -1,7 +1,10 @@
 import Image from "next/image";
 
 export default function Home() {
-
+const names =[
+  "user
+  console.log(names)
+  
 
   const fruitNames =[
     "Apple",
