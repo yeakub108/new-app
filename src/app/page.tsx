@@ -1,10 +1,8 @@
 import Image from "next/image";
+import {useState} from "react";
 
 export default function Home() {
-const names =[
-  "user
-  console.log(names)
-]
+const {name, setNames}= useState()
 
   const fruitNames =[
     "Apple",
