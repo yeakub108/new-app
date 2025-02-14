@@ -4,7 +4,7 @@ export default function Home() {
 const names =[
   "user
   console.log(names)
-  no data
+]
 
   const fruitNames =[
     "Apple",
