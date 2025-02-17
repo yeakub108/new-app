@@ -4,13 +4,12 @@ import {useState} from "react";
 export default function Home() {
 const {name, setNames} = useState()
 const userName = "Yeakub"
-  console.log(userNames)
 
   const user= "mother"
   const fruitNames = [
   const user ="hello"
   const fruitNames =[
-
+    "Mango",
     "Apple",
     "Banana",
     "Cherry",
