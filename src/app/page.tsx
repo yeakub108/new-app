@@ -5,7 +5,7 @@ export default function Home() {
 const {name, setNames}= useState()
 const userName = Yeakub
   console.log(userName)
-  cnst user ="hello"
+  const user ="hello"
   const fruitNames =[
     "Apple",
     "Banana",
