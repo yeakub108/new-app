@@ -10,7 +10,7 @@ const userName = "Yeakub"
   const fruitNames = [
   const user ="hello"
   const fruitNames =[
-
+    "Mango",
     "Apple",
     "Banana",
     "Cherry",
