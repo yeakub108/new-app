@@ -3,7 +3,7 @@ import {useState} from "react";
 
 export default function Home() {
 const {name, setNames}= useState()
-const userName = Yeakub
+const userName = "Yeakub'
   console.log(userName)
   const fruitNames =[
     "Apple",
@@ -30,7 +30,9 @@ const userName = Yeakub
         />
        <div>
       <h1>Fruit Names</h1>
-
+         { userName.map((name, index) =>{
+       <li key={index}>{userName}</li>
+         )}
       <ul>
         {fruitNames.map((fruit, index) => (
           <li key={index}>{fruit}</li>
