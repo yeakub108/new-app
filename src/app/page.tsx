@@ -2,11 +2,15 @@ import Image from "next/image";
 import {useState} from "react";
 
 export default function Home() {
-const {name, setNames}= useState()
-const userName = Yeakub
+const {name, setNames} = useState()
+const userName = "Yeakub"
   console.log(userName)
+
+  const user= "mother"
+  const fruitNames = [
   const user ="hello"
   const fruitNames =[
+
     "Apple",
     "Banana",
     "Cherry",
@@ -31,10 +35,12 @@ const userName = Yeakub
         />
        <div>
       <h1>Fruit Names</h1>
-
+         { userName.map((name, index) =>{
+       <li key={index}>{userName}</li>
+         )}}
       <ul>
         {fruitNames.map((fruit, index) => (
-          <li key={index}>{fruit}</li>
+          <li key={index}>{fruitNames}</li>
         ))}
       </ul>
     </div>
