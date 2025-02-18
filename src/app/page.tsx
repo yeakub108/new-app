@@ -4,8 +4,6 @@ import {useState} from "react";
 export default function Home() {
 const {name, setNames} = useState()
 const userName = "Yeakub"
-
-  const fruitNames = [
     "Mango",
     "Apple",
     "Banana",
