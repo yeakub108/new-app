@@ -5,7 +5,6 @@ export default function Home() {
 const {name, setNames} = useState()
 const userName = "Yeakub"
 
-  const user ="hello"
   const fruitNames = [
     "Mango",
     "Apple",
