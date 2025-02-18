@@ -6,7 +6,7 @@ const {name, setNames} = useState()
 const userName = "Yeakub"
 
   const user ="hello"
-  const fruitNames =[
+  const fruitNames =
     "Mango",
     "Apple",
     "Banana",
