@@ -3,6 +3,7 @@ import {useState} from "react";
 
 export default function Home() {
 const {name, setNames} = useState()
+    console.log(data)
 const userName = [
     "Mango",
     "Apple",
