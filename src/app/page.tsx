@@ -4,7 +4,7 @@ import {useState} from "react";
 export default function Home() {
 const {name, setNames} = useState()
 const names = Yeakub
-    const.log(names)
+    consoles.log(names)
     
 const fruitNames = [
     "Mango",
