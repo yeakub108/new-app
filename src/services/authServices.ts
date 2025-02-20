@@ -8,6 +8,7 @@ import {
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:1337/api";
 
+
 export const authService = {
   async login(credentials: LoginCredentials): Promise<AuthResponse> {
     const { data } = await axios.post(`${API_BASE}/auth/local`, credentials);
