@@ -4,7 +4,7 @@ import {useState} from "react";
 export default function Home() {
 const {name, setNames} = useState()
 const names = Yeakub
-
+kk
 const fruitNames = [
     "Mango",
     "Apple",
@@ -49,7 +49,7 @@ const fruitNames = [
             </code>
             .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Save and see your changes instantly. oo</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
