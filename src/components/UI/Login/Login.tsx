@@ -1,14 +1,8 @@
 "use client";
-import { useEffect } from "react";
+import { useState } from "react";
 
 const Login = () => {
-    useEffect(() => {
-        console.log("Login component mounted");
-
-        return () => {
-            console.log("Login component unmounted");
-        };
-    }, []);
+  const useState [user, setUser] = useState()
 
     return (
         <div>
