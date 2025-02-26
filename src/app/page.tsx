@@ -4,7 +4,7 @@ import {useState} from "react";
 export default function Home() {
 const {name, setNames} = useState()
 const names = Yeakub
-kk
+const users = "users"
 const fruitNames = [
     "Mango",
     "Apple",
