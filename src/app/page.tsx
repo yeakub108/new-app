@@ -16,6 +16,7 @@ const fruitNames = [
     "Peach",
     "Pineapple",
     "Strawberry",
+"sdfdsf"
 ]
 
   return (
