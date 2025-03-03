@@ -1,10 +1,12 @@
+
+'use client'
 import Image from "next/image";
 import {useState} from "react";
 
 export default function Home() {
 const {name, setNames} = useState()
 const names = Yeakub
-kk
+const users = "users"
 const fruitNames = [
     "Mango",
     "Apple",
@@ -16,6 +18,7 @@ const fruitNames = [
     "Peach",
     "Pineapple",
     "Strawberry",
+"sdfdsf"
 ]
 
   return (
@@ -94,6 +97,7 @@ const fruitNames = [
           />
           Learn
         </a>
+      <p>Hello world</p>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
